@@ -1,0 +1,51 @@
+:root {
+    --primary-lime: hsl(61, 70%, 52%);
+    --primary-red: hsl(4, 69%, 50%);
+  
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-slate100: hsl(202, 86%, 94%);
+    --neutral-slate300: hsl(203, 41%, 72%);
+    --neutral-slate500: hsl(200, 26%, 54%);
+    --neutral-slate700: hsl(200, 24%, 40%);
+    --neutral-slate900: hsl(202, 55%, 16%);
+  }
+
+.calc-result-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+}
+.calc-result-parag.header{
+    margin-top: 2.2rem;
+}
+.calc-result-box{
+    margin-top: 3.8rem;
+    padding: 3.2rem 3.2rem 3.1rem 3.2rem;
+    max-width: 424px;
+    width: 100%;
+    /* height: 290px; */
+    height: fit-content;
+    background-color: #0E2431;
+    border-top: 4px solid var(--primary-lime);
+    border-radius: 1.56rem;
+}
+.monthly-repayment-num{
+    font-size: 5.7rem;
+    font-weight: 800;
+    color: var(--primary-lime);
+    margin-top: 1.6rem;
+    padding-bottom: 3.3rem;
+}
+.divider{
+    background-color: #324955;
+    height: 1px;
+    width: 100%;
+}
+.calc-result-parag.bottom{
+    margin-top: 3.75rem;
+}
+.total{
+    margin-top: 1.45rem;
+}
